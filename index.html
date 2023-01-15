@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<!-- Designined by CodingLab | www.youtube.com/codinglabyt -->
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <title> Self-Sec </title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <!-- Move to up button -->
+    <div class="scroll-button">
+        <a href="#home"><i class="fas fa-arrow-up"></i></a>
+    </div>
+    <!-- navgaition menu -->
+    <nav>
+        <div class="navbar">
+            <div class="logo"><a href="#">Self-Sec</a></div>
+            <ul class="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <div class="cancel-btn">
+                    <i class="fas fa-times"></i>
+                </div>
+            </ul>
+            <div class="media-icons">
+                <a href="https://www.facebook.com/simeon.zongo.395"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.linkedin.com/in/wend-benedo-simeon-zongo-536825189/"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/73Simeon"><i class="fab fa-github"></i></a>
+                <a href="https://www.instagram.com/invites/contact/?i=14k8dvaajkg3b&utm_content=95fzhja"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+        <div class="menu-btn">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- Home Section Start -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <div class="text">
+                <div class="text-one">Hello,</div>
+                <div class="text-two">I'm Wend-Benedo Simeon ZONGO</div>
+                <div class="text-three">Security Analyst & Trainer</div>
+                <!-- <div class="text-four">From India</div> -->
+            </div>
+            <div class="button">
+                <a href="mailto:zongowsimon@gmail.com" target="_blank"><button>Contact Me</button></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section Start -->
+    <section class="about" id="about">
+        <div class="content">
+            <div class="title"><span>About Me</span></div>
+            <div class="about-details">
+                <div class="left">
+                    <img src="test.jpg" alt="">
+                </div>
+                <div class="right">
+                    <div class="topic">Security is my passion</div>
+                    <p>Wend-Benedo Simon ZONGO is a highly skilled and experienced professional in the field of cybersecurity and cyberlaw with a master's degree in the field. He has a strong background in security, vulnerability assessment, and exploitation.
+                        He is proficient in programming languages such as PHP, Python, MySQL, C, and C++ and has a strong understanding of machine learning techniques and their applications in cybersecurity. He has proven experience as a full-stack developer
+                        and a security trainer/analyst through previous employment and internships. He is an published author for his paper "Phishing URL detection using machine learning" at the International Conference on Advancement in Smart Computing
+                        and Information Security. He has a bachelor's degree from Burkina Institute of Technology option Programming at Koudougou Burkina Faso and currently pursuing his master's program at Marwadi University, Rajkot, Gujarat, India. He
+                        has several certifications for Blockchain Development, Web Application Testing Security, STTP Research Analysis and Evaluation Techniques. He is passionate about the field of security and machine learning in cybersecurity and committed
+                        to staying current with the latest industry developments..</p>
+                    <div class="button">
+                        <button onclick="DownloadFile('file.pdf')">Download CV</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- My Skill Section Start -->
+    <!-- Section Tag and Other Div will same where we need to put same CSS -->
+    <section class="skills" id="skills">
+        <div class="content">
+            <div class="title"><span>My Skills</span></div>
+            <div class="skills-details">
+                <div class="text">
+                    <div class="topic">Skills Reflects my Knowledge</div>
+                    <p>Strong background in security, vulnerability assessment, and exploitation, I have been working a deep understanding of security principles and practices and i am able to identify and mitigate potential vulnerabilities in systems and
+                        networks. I have hands-on experience with a variety of security tools, such as Nessus Professional, Burp Suite, Nmap, Metasploit-Framework, OWASP ZAP, Wireshark, Linux command line, ADB Command, and i am proficient in using them.
+                        I have programming experience in languages such as PHP, Python, Java Script, MySQL, C and C++. I am able to develop and maintain web applications, scripts, and other software programs. I have knowledge and understanding of encryption
+                        and decryption techniques and i am able to secure data transmissions</p>
+                    <div class="experience">
+                        <div class="num">02</div>
+                        <div class="exp">Years of <br> Experience</div>
+                    </div>
+                </div>
+                <div class="boxes">
+                    <div class="box">
+                        <div class="topic">Nesus Profesional</div>
+                        <div class="per">90%</div>
+                    </div>
+                    <div class="box">
+                        <div class="topic">Burpsuite</div>
+                        <div class="per">80%</div>
+                    </div>
+                    <div class="box">
+                        <div class="topic">Metasploit-Framework</div>
+                        <div class="per">70%</div>
+                    </div>
+                    <div class="box">
+                        <div class="topic">PHP-Phython</div>
+                        <div class="per">60%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- My Services Section Start -->
+    <section class="services" id="services">
+        <div class="content">
+            <div class="title"><span>My Services</span></div>
+            <div class="boxes">
+                <div class="box">
+                    <div class="icon">
+                        <i class="fas fa-desktop"></i>
+                    </div>
+                    <div class="topic">VAPT</div>
+                    <p>Using various tools and techniques, I assess the security of the client's systems and identify any areas that are at risk</p>
+                </div>
+                <div class="box">
+                    <div class="icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <div class="topic">Security consulting</div>
+                    <p>As a security consultant, I provide expert advice to clients on best practices for securing their systems and networks</p>
+                </div>
+                <div class="box">
+                    <div class="icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="topic">Web application security</div>
+                    <p>Web application security involves ensuring that web-based applications are secure from malicious attacks</p>
+                </div>
+                <div class="box">
+                    <div class="icon">
+                        <i class="fab fa-android"></i>
+                    </div>
+                    <div class="topic">Network security</div>
+                    <p>This service focuses on securing a client's network infrastructure and protecting it from malicious attacks</p>
+                </div>
+                <div class="box">
+                    <div class="icon">
+                        <i class="fas fa-camera-retro"></i>
+                    </div>
+                    <div class="topic">Ethical Hacking</div>
+                    <p> As an ethical hacker, you use the same techniques and tools as malicious hackers to identify vulnerabilities in a client's systems</p>
+                </div>
+                <div class="box">
+                    <div class="icon">
+                        <i class="fas fa-tablet-alt"></i>
+                    </div>
+                    <div class="topic">Encryption & Decryption</div>
+                    <p>This service involves using encryption and decryption techniques to secure data transmissions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Me section Start -->
+    <section class="contact" id="contact">
+        <div class="content">
+            <div class="title"><span>Contact Me</span></div>
+            <div class="text">
+                <div class="topic">Have Any Project?</div>
+                <p> I am actively seeking new projects in this field, and anyone interested in working with me can contact me through the information provided in my portfolio. I am open to discussing various types of projects, such as penetration testing,
+                    security consulting, web application security, network security, ethical hacking, encryption and decryption, research and analysis and other related areas, and I am confident that my skills and experience will be an asset to any organization
+                    or project.</p>
+                <div class="button">
+                    <a href="https://api.whatsapp.com/send?phone=919687474479" target="_blank"><button>Let's Chat</button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section Start -->
+    <footer>
+        <div class="text">
+            <span>Created By <a href="#">Self-Sec</a> | &#169; 2023 All Rights Reserved</span>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
